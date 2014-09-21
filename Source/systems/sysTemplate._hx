@@ -1,0 +1,27 @@
+package systems;
+
+import ash.core.Engine;
+import ash.core.NodeList;
+import ash.core.System;
+import nodes.#NODENAME;
+class #SYSNAME extends System {
+	var nodes:NodeList<#NODENAME>;
+	override public function addToEngine(engine:Engine):Void 
+	{
+		nodes = engine.getNodeList(#NODENAME);
+	}
+	
+	override public function removeFromEngine(engine:Engine):Void 
+	{
+		nodes = null;
+	}
+	
+	override public function update(time:Float):Void 
+	{
+		var node:#NODENAME = nodes.head;
+		while (node != null) {
+			
+			node = node.next;
+		}
+	}
+}

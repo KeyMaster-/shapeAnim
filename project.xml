@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="ShapeAnim" package="com.example.shapeanim" version="1.0.0" company="Company Name" />
+	<window width="640" height="480" fps="1000"/>
+	<app main="Main" path="Export" file="ShapeAnim" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="ash"/>
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>

@@ -1,0 +1,36 @@
+{
+	"fill":
+	[
+		{
+			"n":0,
+			"type":"solid",
+			"color":"0xFF1E1D",
+			"alpha":1
+		},
+		{
+			"n":1,
+			"type":"solid",
+			"color":"0xCC1817",
+			"alpha":1
+		},
+		{
+			"n":2,
+			"type":"solid",
+			"color":"0x7F3535",
+			"alpha":1
+		},
+		{
+			"n":3,
+			"type":"solid",
+			"color":"0xFF6A69",
+			"alpha":1
+		}
+	],
+	"line":
+	[
+		{
+			"n":0,
+			"type":"none"
+		}
+	]
+}

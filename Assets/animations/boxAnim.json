@@ -1,0 +1,44 @@
+{
+	"animations":
+	[
+		{	
+			"name":"anim1",
+			"frames":
+			[
+				{
+					"duration":1,
+					"verts":
+					[
+						{"n":0,"x":0,"y":-20},
+						{"n":1,"x":40,"y":-20},
+						{"n":2,"x":40,"y":20},
+						{"n":3,"x":0,"y":20}
+					],
+					"faces":
+					[
+						{"n":0, "indices":[0,1,2,3], "line":0, "fill":0}
+					],
+					"easing":
+					[
+						{"n":"0-3", "ease":"Bounce.easeOut"}
+					]
+				},
+				{
+					"duration":1,
+					"verts":
+					[
+						{"n":0,"x":0,"y":0},
+						{"n":1,"x":40,"y":0},
+						{"n":2,"x":40,"y":0},
+						{"n":3,"x":0,"y":0}
+					],
+					"easing":
+					[
+						{"n":"0-3", "ease":"Bounce.easeOut"}
+					]
+				}
+			]
+		}
+	],
+	"stylePack":"blue"
+}

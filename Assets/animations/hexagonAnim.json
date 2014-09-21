@@ -1,0 +1,50 @@
+{
+	"animations":
+	[
+		{	
+			"name":"anim1",
+			"frames":
+			[
+				{
+					"duration":2,
+					"verts":
+					[
+						{"n":0,"x":-40,"y":0},
+						{"n":1,"x":-40,"y":-40},
+						{"n":2,"x":40,"y":-40},
+						{"n":3,"x":40,"y":0},
+						{"n":4,"x":40,"y":40},
+						{"n":5,"x":-40,"y":40}
+						
+					],
+					"faces":
+					[
+						{"n":0, "indices":[0,1,2,3,4,5], "line":0, "fill":0}
+					],
+					"easing":
+					[
+						{"n":"1-2", "ease":"Elastic.easeOut"},
+						{"n":"4-5", "ease":"Elastic.easeOut"}
+						
+					]
+				},
+				{
+					"duration":1,
+					"verts":
+					[
+						{"n":1, "x":-20, "y":-34.64101},
+						{"n":2, "x":20, "y":-34.64101},
+						{"n":4, "x":20, "y":34.64101},
+						{"n":5, "x":-20, "y":34.64101}
+					],
+					"easing":
+					[
+						{"n":"1-2", "ease":"Elastic.easeOut"},
+						{"n":"4-5", "ease":"Elastic.easeOut"}
+					]
+				}
+			]
+		}
+	],
+	"stylePack":"green"
+}
